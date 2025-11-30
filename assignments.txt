@@ -1,0 +1,9 @@
+Learn java jpa
+
+1. Implement getTasks method in ToDoListRestController
+1.1 Create a method getTasks in TaskRepository class
+1.2 Create a method getTasks in TaskService class
+1.2.1 calls the getTasks of taskRepository
+1.2.2 converts the taskentity to task object
+1.2.3 return all the tasks
+1.3 ToDoListRestController.getTasks method calls taskService.getTasks method
