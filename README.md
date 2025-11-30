@@ -78,3 +78,10 @@ PUT	/api/tasks/{id}
 ##### Delete a task by ID
 DELETE	/api/tasks/{id}	
 
+
+### JPA 
+#### entity : represent table in database
+Task
+
+#### repository : create, read, update and delete (CRUD) records in table
+TaskReposibory
